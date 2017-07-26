@@ -102,3 +102,6 @@ ENV/
 
 # vim stuff
 *.sw*
+
+# django specific
+local_settings.py
