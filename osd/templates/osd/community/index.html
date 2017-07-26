@@ -1,0 +1,22 @@
+{% extends 'osd/base.html' %}
+{% load bootstrap3 %}
+
+{% block title %}Open Source Days{% endblock %}
+
+{% block content %}
+        <div class="well">
+            <h1>Community</h1>
+        </div> 
+
+        <p>
+            <a href="{% url 'home' %}">home</a>
+        </p>
+        <p>
+            <a href="{% url 'community_home' %}">community</a>
+        </p>
+        <p>
+            <a href="{% url 'business_home' %}">business</a>
+        </p>
+
+
+{% endblock %}
