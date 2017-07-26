@@ -26,7 +26,7 @@ class SessionAdmin(admin.ModelAdmin):
     list_display = ('name', 'event')
 
 
-@admin.register(Proposal)
+@admin.register(Proposal
 class ProposalAdmin(admin.ModelAdmin):
     fields = ('name','email','bio','company','title','abstract', 'session', 'accepted')
     list_display = ('name','email','title','session','accepted')
